@@ -17,10 +17,12 @@
         </activity>
         <activity android:name=".another">
             <intent-filter>
-                <action android:name="com.circularblue.homeautomation.another"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.circularblue.homeautomation.another" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>
